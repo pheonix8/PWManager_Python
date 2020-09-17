@@ -24,3 +24,7 @@ class Application:
 
     def setemail(self, e):
         self.email = e
+
+    def __str__(self):
+        str1 = "" + self.application + ", " + self.password + ", " + self.username + ", " + self.email
+        return str1
