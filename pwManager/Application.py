@@ -1,7 +1,6 @@
 # Application
 
 class Application:
-
     application = ""
     password = ""
     username = ""
@@ -11,7 +10,7 @@ class Application:
         self.application = a
         self.password = p
         self.username = u
-        self. email = e
+        self.email = e
 
     def setapplication(self, a):
         self.application = a
